@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top right, #ff00ff, #00ffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-content{
+    width: 80%;
+    background: rgba(255, 255, 255, 0,2);
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+}
+
+.form-control{
+    border-top: none;
+    border-right: none;
+    border-radius: 0%;
+    border-left: none;
+}
+
+.input-group-text{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+@media screen and (max-width:767px) {
+    .img-auth img{
+        display: none;
+    }
+}
